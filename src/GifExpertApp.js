@@ -35,19 +35,19 @@ const GifExpertApp = () => {
                 <div className="images">
                     <div>
                         <p>Dinamica = SRC - Components - Img</p>
-                        <img src={interestelar} alt="interestelar"/>
+                        <img src={'.'+interestelar} alt="interestelar"/>
                     </div>
                     <div>
                         <p>Dinamica = SRC - Img</p>
-                        <img src={stars} alt="stars"/>
+                        <img src={'.'+stars} alt="stars"/>
                     </div>
                     <div>
                         <p>SRC - Components - Img</p>
-                        <img src="/components/img/Interestelar.jpg" alt="interestelar"/>
+                        <img src="./components/img/Interestelar.jpg" alt="interestelar"/>
                     </div>
                     <div>
                         <p>SRC - Img</p>
-                        <img src="/img/stars.jpg" alt="stars"/>
+                        <img src="./img/stars.jpg" alt="stars"/>
                     </div>
                 </div>
             </div>
